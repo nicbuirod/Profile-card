@@ -1,115 +1,124 @@
 @font-face {
-    font-family: "Kumbh";
-    src: url('../font/KumbhSans-VariableFont_wght.ttf');
+  font-family: "Kumbh";
+  src: url("../font/KumbhSans-VariableFont_wght.ttf");
 }
 body {
-    font-family: 'Kumbh';
+  font-family: "Kumbh";
+}
+.fondo {
+
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background-color: #F0F0F0;
 }
 .background {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: RGB(27,161,173);
-    background-size: cover;
-    background-attachment: fixed;
-  
-    margin: 0;  
-    
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background-color: RGB(27, 161, 173);
+  background-size: cover;
+  background-attachment: fixed;
+
+  margin: 0;
 }
 .fondotop {
-    position: fixed;
-    top: -27%;
-    left: -12%;
-width: 100%;
-height: 100%;
-    background-image: url('../img/circle-top.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-        
-    }
+  position: fixed;
+  top: -27%;
+  left: -12%;
+  width: 90%;
+  height: 90%;
+  background-image: url("../img/circle-top.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .fondobot {
-    position: fixed;
-    bottom: -60%;
-    right: -52%;
-width: 100%;
-height: 100%;
-    background-image: url('../img/circle-bottom.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-        }
+  position: fixed;
+  bottom: -60%;
+  right: -52%;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/circle-bottom.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .foto {
-    
-    
-    border-radius: 50%;
-    border: 5px solid white;
-   
-   
+  border-radius: 50%;
+  border: 5px solid white;
 }
 .contenedor {
-    
-    width: 350px;
-    height: 360px;
-background-color: white;
-    position: relative;
-    top: 30%;
-    margin: auto;
-    border-radius: 10px;
+  width: 350px;
+  height: 360px;
+  background-color: white;
+  position: relative;
+  top: 30%;
+  margin: auto;
+  border-radius: 10px;
 }
 .seguidores {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 25px;
-    border-top: 2px solid whitesmoke;
-    justify-items: center;
-    position: relative;
-    top: -70px;
-    margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 25px;
+  border-top: 2px solid whitesmoke;
+  justify-items: center;
+  position: relative;
+  top: -70px;
+  margin-top: 15px;
 }
 .recuadro {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .principal {
-display: flex;
-flex-direction: column;
-align-items: center;
-position: relative;
-top: -14%;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -14%;
 }
 
 .datos {
-    font-family: 'Kumbh';
-    font-weight: bold;
-    display: flex;
-    margin: 0;
+  font-family: "Kumbh";
+  font-weight: bold;
+  display: flex;
+  margin: 0;
 }
 .edad {
-    margin-left: 10px;
-    color: gray;
+  margin-left: 10px;
+  color: gray;
 }
 .pais {
-    margin-top: 0;
-    position: relative;
-    top: -10px;
-    color: grey;
+  margin-top: 0;
+  position: relative;
+  top: -10px;
+  color: grey;
 }
 
 .valores {
-font-weight: bold;
+  font-weight: bold;
 }
 
 .nombreval {
-    color: grey;
+  color: grey;
+  font-size: 14px;
 }
 @media (max-width: 375px) {
-    .fondotop {
-        position: fixed;
+  .fondotop {
+    position: fixed;
     top: -27%;
     left: -52%;
-    }
+  }
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
 }
-
